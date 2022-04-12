@@ -1,0 +1,26 @@
+----- ATTENTION: MEMORY LEAK!!! -------
+
+1. Demo 1: [DONE]
+- manual calculation [DONE]
+- implement Mass-Spring-System-Simulator-class [DONE]
+- set startup project and replce #define [DONE]
+- implement Euler [DONE]
+- implement Midpoint [DONE]
+
+2. Demo 2: [DONE]
+- simulate 2 Point setup [DONE]
+- implement euler [DONE]
+
+3. Demo 3: [DONE]
+- simulate 2 Point setup [DONE]
+- implement midpoint [DONE]
+
+4. Demo 4: [PENDING...]
+- simulation with 10 springs and 10 mass points [DONE]
+- allow users to change method (Euler vs. Midpoint) in UI [to be started]
+- allow users to change time step in UI [to be started]
+- implement gravity [PENDING...](Added Function that adds an external Force to all MassPoint.Forces)
+- implement collisions (ground/walls) [to be started]
+
+
+5. Demo 5: [DONE] (optional lol)
