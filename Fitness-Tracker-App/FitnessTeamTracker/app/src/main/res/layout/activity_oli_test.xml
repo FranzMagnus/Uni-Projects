@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OliTestActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_oli_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtView_oli_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Olis Test Activity" />
+
+        <TextView
+            android:id="@+id/txtView_oli_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btn_oli_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Tracking" />
+
+        <Button
+            android:id="@+id/btn_oli_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Switch Mode (Pushup)" />
+
+        <Button
+            android:id="@+id/btn_oli_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Fitness Activity" />
+
+        <TextView
+            android:id="@+id/txt_oli_socket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btn_oli_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test WebSocket" />
+
+        <TextView
+            android:id="@+id/txt_oli_json"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btn_oli_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start game test" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

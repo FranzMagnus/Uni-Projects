@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "607658755805",
+    "firebase_url": "https://soga-fitnessteamtracker.firebaseio.com",
+    "project_id": "soga-fitnessteamtracker",
+    "storage_bucket": "soga-fitnessteamtracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607658755805:android:6193256529b0d30d767d34",
+        "android_client_info": {
+          "package_name": "com.example.fitnessteamtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607658755805-n3lfl3f64islgc42f4cg5lpfvri84dee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX5iGaLh6XNqQ8ZkHuXFTXkTBvq-YyjT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607658755805-n3lfl3f64islgc42f4cg5lpfvri84dee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

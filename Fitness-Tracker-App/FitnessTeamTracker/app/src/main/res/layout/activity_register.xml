@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackground">
+
+    <EditText
+        android:id="@+id/passwordTextRegister"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTextRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Password (min 6. Characters)"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/emailTextRegister"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTextRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/nameTextRegister"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/registerButtonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTextRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="177dp"
+        android:background="@drawable/buttonxml"
+        android:text="Register"
+        android:textColor="@color/colortext" />
+
+
+</RelativeLayout>

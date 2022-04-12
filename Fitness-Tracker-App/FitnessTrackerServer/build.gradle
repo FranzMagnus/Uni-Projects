@@ -1,0 +1,45 @@
+plugins {
+    id 'play'
+    id 'idea'
+}
+
+def playVersion = '2.6.11'
+def scalaVersion = System.getProperty("scala.binary.version", /* default = */ "2.12")
+
+model {
+    components {
+        play {
+            platform play: playVersion, scala: scalaVersion, java: '1.8'
+            injectedRoutesGenerator = true
+
+            sources {
+                twirlTemplates {
+                    defaultImports = TwirlImports.JAVA
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    play group: 'uk.co.panaxiom', name: 'play-jongo_2.10', version: '1.0.1-jongo1.2'
+    play group: 'org.mongodb', name: 'mongodb-driver', version: '3.6.3'
+    play "com.typesafe.play:play-guice_$scalaVersion:$playVersion"
+    play "com.typesafe.play:play-logback_$scalaVersion:$playVersion"
+    play "com.typesafe.play:filters-helpers_$scalaVersion:$playVersion"
+    play group: 'org.json', name: 'json', version: '20090211'
+}
+
+
+repositories {
+    jcenter()
+    maven {
+        name "lightbend-maven-releases"
+        url "https://repo.lightbend.com/lightbend/maven-release"
+    }
+    ivy {
+        name "lightbend-ivy-release"
+        url "https://repo.lightbend.com/lightbend/ivy-releases"
+        layout "ivy"
+    }
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackground"
+    tools:context="socgam.com.androidtutorial.LoginActivity">
+
+    <!-- AM besten Relative Layouit verwenden (einfacher)-->
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200sp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary" />
+
+    <!--Folie 9 kann später weiterverwendet werden (sollte im UI-Designer erzeugt werden)  -->
+    <Button
+        android:id="@+id/signinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/buttonxml"
+        android:text="@string/signIn"
+        android:textColor="@color/colortext" />
+
+    <!--Folie 9 kann später gelöscht  (sollte im UI-Designer erzeugt werden)  -->
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailText"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/register_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttonxml"
+        android:text="Register"
+        android:textColor="@color/colortext" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/logon" />
+
+
+</RelativeLayout>

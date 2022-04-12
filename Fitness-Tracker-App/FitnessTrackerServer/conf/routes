@@ -1,0 +1,55 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                                                   controllers.HomeController.index
+GET     /test                                               controllers.HomeController.test
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file                                       controllers.Assets.versioned(path="/public", file: Asset)
+
+
+# Routes for Database-Interactions
+# inserting objects into the collections [pending]
+# TODO: need Objects to insert in the database [JACOB]
+#POST    /insert/user/:body                   controllers.HomeController.insertUser(body: String)
+
+POST    /create/match       controllers.HomeController.create_Match
+POST    /insert/match       controllers.HomeController.insert_Match
+POST    /insert/user        controllers.HomeController.insert_User
+POST    /insert/player      controllers.HomeController.insert_Player
+
+GET     /ingame/:firebaseID     controllers.HomeController.isIngame(firebaseID: String)
+
+# finding objects in the collections
+GET     /find/user/:firebaseID          controllers.HomeController.find_User(firebaseID: String)
+GET     /find/player/:firebaseID        controllers.HomeController.find_Player(firebaseID: String)
+GET     /find/match/:matchID            controllers.HomeController.find_Match(matchID: String)
+
+# removing objects from the collections [pending]
+POST    /remove/user/:firebaseID        controllers.HomeController.remove_User(firebaseID: String)
+POST    /remove/player/:firebaseID      controllers.HomeController.remove_Player(firebaseID: String)
+POST    /remove/match/:hostID           controllers.HomeController.remove_Match(hostID: String)
+
+# updating data in user-collection [DONE]
+POST    /user/updateName/:firebaseID/:name                         controllers.HomeController.user_updateName(firebaseID: String, name: String)
+POST    /user/incMatches/:firebaseID                               controllers.HomeController.user_incMatches(firebaseID: String)
+POST    /user/incWins/:firebaseID                                  controllers.HomeController.user_incWins(firebaseID: String)
+POST    /user/addFriend/:firebaseID_user/:firebaseID_friend        controllers.HomeController.user_addFriend(firebaseID_user: String, firebaseID_friend: String)
+POST    /user/removeFriend/:firebaseID_user/:firebaseID_friend     controllers.HomeController.user_removeFriend(firebaseID_user: String, firebaseID_friend: String)
+POST    /user/addRival/:firebaseID_user/:firebaseID_rival          controllers.HomeController.user_addRival(firebaseID_user: String, firebaseID_rival: String)
+POST    /user/removeRival/:firebaseID_user/:firebaseID_rival       controllers.HomeController.user_removeRival(firebaseID_user: String, firebaseID_rival: String)
+
+# updating data in player-collection [DONE]
+POST    /player/incTurnNumber/:firebaseID                          controllers.HomeController.player_incTurnNumber(firebaseID: String)
+POST    /player/updateLocation/:firebaseID/:location_index         controllers.HomeController.player_updateLocation(firebaseID: String, location_index: Integer)
+POST    /player/setReadyTrue/:firebaseID                           controllers.HomeController.player_setReadyTrue(firebaseID: String)
+POST    /player/setReadyFalse/:firebaseID                          controllers.HomeController.player_setReadyFalse(firebaseID: String)
+
+# updating data in match-collection [to be tested]
+POST    /match/setWinners/:matchID/:firebaseID_winner1/:firebaseID_winner2      controllers.HomeController.match_setWinners(matchID: String, firebaseID_winner1: String, firebaseID_winner2: String)
+POST    /match/changeStatus/:matchID                                            controllers.HomeController.match_changeStatus(matchID: String)
+
+# Game logic
+GET     /ws     controllers.GameController.socket

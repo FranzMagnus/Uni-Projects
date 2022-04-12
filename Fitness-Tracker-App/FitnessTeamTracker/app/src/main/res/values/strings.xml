@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TeamUP</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="signIn">signIn</string>
+    <string name="done">Done</string>
+    <string name="create_matchfield">Create Matchfield</string>
+    <string name="title_activity_game">Map</string>
+</resources>
