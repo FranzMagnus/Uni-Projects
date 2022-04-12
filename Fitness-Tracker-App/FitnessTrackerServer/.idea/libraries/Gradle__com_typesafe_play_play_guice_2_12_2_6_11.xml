@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.typesafe.play:play-guice_2.12:2.6.11">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.play/play-guice_2.12/2.6.11/4994067b029201c7a3905dac0d3fb70ff9046175/play-guice_2.12-2.6.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.play/play-guice_2.12/2.6.11/1763dcaea6b9ca33de818744a8b47c426638eebb/play-guice_2.12-2.6.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

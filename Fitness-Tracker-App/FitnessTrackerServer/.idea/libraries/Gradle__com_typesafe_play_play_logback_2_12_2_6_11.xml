@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.typesafe.play:play-logback_2.12:2.6.11">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.play/play-logback_2.12/2.6.11/4a3dab924052ece155177e3c285747add3d6aec9/play-logback_2.12-2.6.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.play/play-logback_2.12/2.6.11/3aa34116ba97b16ce82a56b2e2fdafa982bb0ba6/play-logback_2.12-2.6.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

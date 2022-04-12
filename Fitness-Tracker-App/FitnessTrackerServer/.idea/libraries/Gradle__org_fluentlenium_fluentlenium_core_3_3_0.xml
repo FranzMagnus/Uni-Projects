@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.fluentlenium:fluentlenium-core:3.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.fluentlenium/fluentlenium-core/3.3.0/f1c9388ac353a66b69d0ac57f22c71a5b15a0fb4/fluentlenium-core-3.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.fluentlenium/fluentlenium-core/3.3.0/5d0779d4841eacac96bd0d64af66bf883f7d6610/fluentlenium-core-3.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.typesafe.play:play-streams_2.12:2.6.11">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.play/play-streams_2.12/2.6.11/3a31cd2f70727f23f48ba8bb1823157d134c02b1/play-streams_2.12-2.6.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.play/play-streams_2.12/2.6.11/6525b3f4ddc82b4c5089766aee055bf40f88db61/play-streams_2.12-2.6.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

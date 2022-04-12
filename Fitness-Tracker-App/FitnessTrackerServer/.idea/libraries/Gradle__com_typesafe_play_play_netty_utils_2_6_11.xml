@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.typesafe.play:play-netty-utils:2.6.11">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.play/play-netty-utils/2.6.11/ec5310af1ad425ad0358ac74371c43089c0d3de1/play-netty-utils-2.6.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.play/play-netty-utils/2.6.11/3bc415bc2f180217727f3dd0684c7c6e39d5aea8/play-netty-utils-2.6.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

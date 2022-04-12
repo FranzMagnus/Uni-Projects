@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.typesafe.akka:akka-parsing_2.12:10.0.11">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-parsing_2.12/10.0.11/149700de418d46ec9bfe6f5134ee873f8647d5ad/akka-parsing_2.12-10.0.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-parsing_2.12/10.0.11/5a5e46fdc95c2348b854a85713b4be88d4122c8d/akka-parsing_2.12-10.0.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.typesafe.play:play-test_2.12:2.6.11">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.play/play-test_2.12/2.6.11/b00b197403f92ee90264438938be5a02159c2bdc/play-test_2.12-2.6.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.play/play-test_2.12/2.6.11/a67633e5db6131a827b6b1d8c3d724cab98aa425/play-test_2.12-2.6.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.typesafe.play:play-akka-http-server_2.12:2.6.11">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.play/play-akka-http-server_2.12/2.6.11/6a9d28c5cdb4721463bbe704a9e08381157ca191/play-akka-http-server_2.12-2.6.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.play/play-akka-http-server_2.12/2.6.11/25dd1f424f67813c225a1fd5b9ac9ce0b770e806/play-akka-http-server_2.12-2.6.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
